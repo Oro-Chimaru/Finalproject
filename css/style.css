@@ -1,0 +1,101 @@
+.divwraper {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto ;
+    padding-top: 25px;
+}
+.hea-der {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: silver;
+}
+.ul-li {
+    display: flex;
+    column-gap: 25px;
+}
+.rightdiv {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.log-box {
+    color: silver;
+    background-color: black;
+    border-radius: 60%;
+    padding: 10px 10px;
+    border: 2px silver groove;
+}
+.titlebox {
+    max-width: 1440px;
+    width: 90%;
+    padding-top: 265px;
+    padding-bottom: 265px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.sec1 {
+    background-image: url(../images/Silvercut_Website-Silvercut_Website-1_1944x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.img {
+    width: 100%;
+}
+.imgdiv {
+    background-color:;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.yourbox {
+    margin-top: 15px;
+    background-color: silver;
+    color: black;
+    width: 220px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40%;
+    border: 3px black groove;
+}
+.divwraper2 {
+    max-width: 1440px;
+    width: 90%;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.productbox {
+    width: 400px;
+    height: 600px;
+    border-radius: 10%;
+}
+.imgbox {
+    width: 100%;
+}
+.imgboxinfo {
+    text-align: center;
+    padding-top: 5px;
+}
+.imgboxinfo2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.sec2-title {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 80px;
+    line-height: 15px;
+}
