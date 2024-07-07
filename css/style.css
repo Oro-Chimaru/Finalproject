@@ -11,7 +11,7 @@
     width: 100%;
     position: fixed;
     z-index: 1;
-    background-color: blacka;
+    background-color: skyblue;
 }
 .ul-li {
     display: flex;
@@ -148,6 +148,13 @@
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
+    position: relative;
+    animation: monthlybox 5s;
+    animation-iteration-count: 1;
+}
+@keyframes monthlybox {
+    from {left: -100%;}
+    to {left: 0;}
 }
 .oldprice {
     text-decoration: line-through red;
@@ -328,7 +335,9 @@
     justify-content: space-between;
     max-width: 1440px;
     width: 90%;
-    margin: 0 auto;
+    margin: 25px auto 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .address-p {
     padding-top: 10px;
@@ -353,4 +362,67 @@
 .last-p {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+/* necklace.html */ 
+
+.necklace-divwraper {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 80px;
+}
+.hea-der2 {
+    width: 100%;
+    background-color: skyblue;
+}
+.necklace-title {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.orderbox1 {
+    column-gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.necklace-name {
+    font-size: 25px;
+}
+.necklace-price {
+    margin-top: 5px;
+    font-size: 25px;
+}
+.necklace-review {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.number1 {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: skyblue;
+}
+.entertextbox {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.upload-pic-box {
+    margin-top: 15px;
+}
+.necklaceimg-box {
+    width: 800px;
+    height: 800px;
+}
+.necklace-image {
+    width: 100%;
+    height: 100%;
 }
