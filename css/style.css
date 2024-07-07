@@ -11,7 +11,7 @@
     width: 100%;
     position: fixed;
     z-index: 1;
-    background-color: silver;
+    background-color: blacka;
 }
 .ul-li {
     display: flex;
@@ -79,7 +79,6 @@
 .productbox {
     width: 400px;
     height: 600px;
-    border-radius: 10%;
 }
 .imgbox {
     width: 100%;
@@ -98,4 +97,121 @@
     text-align: center;
     font-size: 80px;
     line-height: 15px;
+}
+.img2 {
+    width: 100%;
+}
+.divwraper3 {
+    max-width: 1140px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.oldprice {
+    text-decoration: line-through red;
+    font-size: 20px;
+    text-align: center;
+}
+.productname {
+    font-size: 25px;
+    text-align: center;
+}
+.sale {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+.saleprice {
+    padding-top: 5px;
+    font-size: 35px;
+    text-align: center;
+}
+.box {
+    border-radius: 10px;
+    border: 1px silver groove;
+    color: white;
+    background-color: black;
+}
+.sec3-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.divwraper4 {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.img4 {
+    width: 100%;
+}
+.box1 {
+    width: 300px;
+}
+.tutorial-p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.shop-box {
+    width: 100px;
+    margin: 15px auto 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    background-color: black;
+    border: 2px groove silver;
+}
+.sec4-title {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.sec4-title2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.sec5-title {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.divwraper5 {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box11 {
+    width: 30%;
+}
+.img5 {
+    width: 100%;
+}
+.name-p {
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.mastercard-box {
+    width: 150px;
+    height: 150px;
+}
+.mcimg {
+    width: 100%;
+}
+.sec6 {
+    background-color: burlywood;
+}
+.divwraper6 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1440px;
+    width: 30%;
+    margin: 100px auto 0;
 }
