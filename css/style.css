@@ -17,17 +17,36 @@
     display: flex;
     column-gap: 25px;
 }
+.nav-a {
+    position: relative;
+}
+.nav-a::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: silver;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 2s;
+}
+.nav-a:hover::after {
+    width: 100%;
+}
 .rightdiv {
     display: flex;
     align-items: center;
     column-gap: 10px;
 }
 .log-box {
-    color: silver;
+    color: white;
     background-color: black;
     border-radius: 60%;
     padding: 10px 10px;
     border: 2px silver groove;
+}
+.log-box:hover {
+    background-color: steelblue;
 }
 .titlebox {
     max-width: 1440px;
@@ -50,7 +69,6 @@
     width: 100%;
 }
 .imgdiv {
-    background-color:;
     width: 400px;
     height: 500px;
     position: absolute;
@@ -59,8 +77,7 @@
 }
 .yourbox {
     margin-top: 15px;
-    background-color: silver;
-    color: black;
+    background-color: black;
     width: 220px;
     height: 40px;
     display: flex;
@@ -68,6 +85,12 @@
     justify-content: center;
     border-radius: 40%;
     border: 3px black groove;
+}
+.yourbox:hover {
+    background-color: steelblue;
+}
+.per-a {
+    color: white;
 }
 .divwraper2 {
     max-width: 1440px;
@@ -79,6 +102,11 @@
 .productbox {
     width: 400px;
     height: 600px;
+}
+.productbox:hover {
+    background-color: skyblue;
+    border-radius: 5%;
+    border: 1px groove white;
 }
 .imgbox {
     width: 100%;
@@ -93,10 +121,23 @@
     padding-bottom: 10px;
 }
 .sec2-title {
-    padding-top: 100px;
-    text-align: center;
+    max-width: 1440px;
+    width: 90%;
+    height: 45px;
+    margin: 100px auto 0;
     font-size: 80px;
     line-height: 15px;
+    position: relative;
+}
+.sec2-title::after {
+    content: "  ";
+    background-color: steelblue;
+    width: 15%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 2s;
 }
 .img2 {
     width: 100%;
@@ -135,8 +176,23 @@
     background-color: black;
 }
 .sec3-title {
-    margin-bottom: 50px;
-    text-align: center;
+    height: 20px;
+    max-width: 1440px;
+    width: 80%;
+    margin: 70px auto 50px;
+    padding-left: 14%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+.sec3-title::after {
+    content: "  ";
+    background-color: steelblue;
+    width: 5%;
+    height: 2px;
+    position: absolute;
+    left: 14;
+    bottom: 0;
 }
 .divwraper4 {
     max-width: 1440px;
@@ -157,7 +213,7 @@
 }
 .shop-box {
     width: 100px;
-    margin: 15px auto 0;
+    margin: 25px auto 0;
     height: 40px;
     display: flex;
     align-items: center;
@@ -165,20 +221,52 @@
     border-radius: 10%;
     background-color: black;
     border: 2px groove silver;
+    position: relative;
+}
+.shop-box:hover {
+    background-color: skyblue;
+}
+.shop-p {
+    color: white;
 }
 .sec4-title {
     padding-top: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: center;
+    position: relative;
+}
+.sec4-title::after {
+    content: "  ";
+    background-color: steelblue;
+    width: 8%;
+    height: 3px;
+    position: absolute;
+    left: 46%;
+    bottom: 0;
 }
 .sec4-title2 {
     text-align: center;
+    padding-top: 15px;
     padding-bottom: 10px;
+    position: relative;
+}
+.sec4-title2::after {
+    content: "  ";
+    background-color: steelblue;
+    width: 6%;
+    height: 3px;
+    position: absolute;
+    left: 47%;
+    bottom: 0;
+}
+.sec3{
+    height: 500px;
 }
 .sec5-title {
     margin-top: 150px;
     margin-bottom: 20px;
     text-align: center;
+    text-decoration: underline skyblue 5px;
 }
 .divwraper5 {
     max-width: 1440px;
@@ -205,7 +293,7 @@
     width: 100%;
 }
 .sec6 {
-    background-color: burlywood;
+    background-color: steelblue;
 }
 .divwraper6 {
     padding-top: 50px;
@@ -214,4 +302,55 @@
     max-width: 1440px;
     width: 30%;
     margin: 100px auto 0;
+}
+.mailbox {
+    width: 300px;
+    height: 50px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px groobe;
+}
+.sendbox {
+    width: 100px;
+    height: 30px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px groove;
+    background-color: aqua;
+}
+.foot-er {
+    background-color: steelblue;
+}
+.divwraper7 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+.address-p {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.socmedia-box {
+    display: flex;
+    column-gap: 10px;
+    font-size: 20px;
+}
+.instabox {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.fbbox {
+    padding-bottom: 5px;
+}
+.sale-p {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.last-p {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
