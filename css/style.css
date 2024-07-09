@@ -13,17 +13,25 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto ;
-    padding-top: 25px;
-    
+    padding-top: 25px; 
+}
+.burgerbar {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    display: none;
 }
 .hea-der {
     width: 100%;
     position: fixed;
     z-index: 1;
     border: 1px solid;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 5px 5px 8px red, 10px 10px 8px blue, 15px 15px 8px yellow;
-    margin: 20px;
     border-left: 0px;
     border-top: 0px;
     border-right: 0px;
@@ -68,7 +76,7 @@
 .log-box {
     color: white;
     background-color: black;
-    border-radius: 60%;
+    border-radius: 25%;
     padding: 10px 10px;
     border: 2px silver groove;
 }
@@ -76,6 +84,7 @@
     background-color: steelblue;
 }
 .sec1-h1 {
+    color: white;
     font-size: 45px;
     font-family: "Playwrite AU VIC", cursive;
     font-optical-sizing: auto;
@@ -83,20 +92,22 @@
     font-style: normal;
 }
 .titlebox {
+    position: absolute;
+    top: 265px;
+    left: 10%;
     max-width: 1440px;
     width: 90%;
-    padding-top: 265px;
-    padding-bottom: 265px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     text-align: center;
-    position: relative;
 }
 .sec1 {
     background-image: url(../images/Silvercut_Website-Silvercut_Website-1_1944x.webp);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     height: 700px;
 }
 .img {
@@ -117,7 +128,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 40%;
+    border-radius: 25%;
     border: 3px black groove;
     font-family: "Playwrite AU VIC", cursive;
     font-optical-sizing: auto;
@@ -321,7 +332,7 @@
     font-style: normal;
 }
 .sec4-title {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 10px;
     text-align: center;
     position: relative;
@@ -430,7 +441,8 @@
     margin: 100px auto 0;
 }
 .mailbox {
-    width: 300px;
+    max-width: 300px;
+    width: 60%;
     height: 50px;
     border-left: 0px;
     border-top: 0px;
@@ -693,7 +705,6 @@
     padding-top: 30px;
 }
 .support {
-    width: 200px;
     height: 40px;
     background-color: black;
     color: white;
@@ -724,4 +735,163 @@
 .k-head {
     width: 100%;
     background-color: skyblue;
+}
+
+
+
+/* Responsive max width 1024px */ 
+
+@media (max-width: 1024px) {
+    .divwraper2 {
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .sec4-title2 {
+        margin-bottom: 20px;
+    }
+    .divwraper4 {
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .shop-box {
+        width: 50%;
+        height: 50px;
+    }
+    .divwraper7 {
+        flex-wrap: wrap;
+        column-gap: 100px;
+        justify-content: center;
+        row-gap: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .sec1 {
+        height: 400px;
+    }
+    .divwraper3 {
+        column-gap: 25px;
+    }
+    .necklaceimg-box {
+        width: 100%;
+        height: 100%;
+    }
+    .necklace-image {
+        height: 500px;
+    }
+    .contact-imgbox {
+        width: 60%;
+    }
+    .underdiv-h4 {
+        text-align: center;
+    }
+    .divwraper7 {
+        column-gap: 50px;
+    }
+    .titlebox {
+        left: 5%;
+        top: 15%;
+    }
+    .sec1-h1 {
+        font-size: 25px;
+    }
+    .yourbox {
+        width: 20%;
+    }
+}
+@media (max-width: 480px) {
+    .sec1 {
+        background-image: url(../images/peoplehomepage.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 800px;
+    }
+    .titlebox {
+        left: 5%;
+        top: 45%;
+    }
+    .ul-li {
+        display: none;
+    }
+    .yourbox {
+        width: 50%;
+        height: 50px;
+    }
+    .per-a {
+        font-size: 15px;
+    }
+    .burgerbar {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .productbox {
+        width: 80%;
+    }
+    .divwraper3 {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .img2 {
+        height: 200px;
+    }
+    .sec4-title {
+        margin-top: 600px;
+    }
+    .sec5-title {
+        width: 80%;
+    }
+    .getintouch {
+        display: none;
+    }
+}
+@media (max-width: 320px) {
+    .sec1 {
+        background-image: url(../images/peoplehomepage.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 500px;
+    }
+    .titlebox {
+        left: 5%;
+        top: 30%;
+    }
+    .per-a {
+        font-size: 10px;
+    }
+    .rightdiv {
+        display: none;
+    }
+    .log-box {
+        display: none;
+    }
+    .sec1-h1 {
+        font-size: 15px;
+    }
+    .yourbox {
+        width: 40%;
+    }
+    .sec2-title {
+        font-size: 35px;
+    }
+    .productbox {
+        height: 380px;
+    }
+    .box1 {
+        width: 80%;
+    }
+    .review-p {
+        font-size: 12px;
+    }
+    .sec5-title {
+        font-size: 20px;
+    }
+    .divwraper7 {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
