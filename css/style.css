@@ -841,6 +841,20 @@
     .yourbox {
         width: 20%;
     }
+    .foot-er {
+        margin-top: 350px;
+    }
+    .underdiv {
+        position: absolute;
+        top: 220px;
+        left: 50px;
+    }
+    .number-p {
+        text-align: center;
+    }
+    .contact-imgbox {
+        display: none;
+    }
 }
 @media (max-width: 480px) {
     .contact-imgbox {
