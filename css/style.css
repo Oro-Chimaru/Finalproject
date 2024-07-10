@@ -1,10 +1,10 @@
 .logo-name {
     color: white;
     font-size: 30px;
-    font-family: "Playwrite AU VIC", cursive;
+    font-family: "Playwrite AT", cursive;
     font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 200;
+    font-style: italic;
 }
 .divwraper {
     max-width: 1440px;
@@ -45,10 +45,12 @@
 .nav-a {
     position: relative;
     font-size: 20px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
     color: white;
 }
 .nav-a::after {
@@ -65,10 +67,12 @@
     width: 100%;
 }
 .log-p {
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .rightdiv {
     display: flex;
@@ -88,10 +92,10 @@
 .sec1-h1 {
     color: white;
     font-size: 45px;
-    font-family: "Playwrite AU VIC", cursive;
+    font-family: "Playwrite AT", cursive;
     font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
+    font-weight: 200;
+    font-style: italic;
 }
 .titlebox {
     position: absolute;
@@ -143,6 +147,10 @@
 }
 .per-a {
     color: white;
+    font-family: "Playwrite AT", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
 }
 .divwraper2 {
     max-width: 1440px;
@@ -167,10 +175,12 @@
     text-align: center;
     padding-top: 5px;
     font-size: 25px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
     color: #34568B;
 }
 .imgboxinfo2 {
@@ -179,10 +189,12 @@
     padding-top: 5px;
     padding-bottom: 10px;
     font-size: 14px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .sec2-title {
     color: #34568B;
@@ -192,9 +204,9 @@
     margin: 100px auto 0;
     font-size: 60px;
     line-height: 15px;
-    font-family: "Roboto Slab", serif;
+    font-family: "Playwrite NO", cursive;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 300;
     font-style: normal;
     position: relative;
 }
@@ -230,20 +242,24 @@
     text-decoration: line-through red;
     font-size: 20px;
     text-align: center;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 600;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
     color: #34568B;
 }
 .productname {
     color: #34568B;
     font-size: 25px;
     text-align: center;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .sale {
     color: #34568B;
@@ -251,20 +267,24 @@
     padding-bottom: 5px;
     font-size: 15px;
     text-align: center;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 600;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .saleprice {
     color: #34568B;
     padding-top: 5px;
     font-size: 35px;
     text-align: center;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .box {
     border-radius: 10px;
@@ -282,10 +302,9 @@
     display: flex;
     justify-content: flex-start;
     position: relative;
-    font-family: "Roboto Slab", serif;
+    font-family: "Playwrite NO", cursive;
     font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+    font-weight: 300;
     font-size: 15px;
 }
 .sec3-title::after {
@@ -315,10 +334,12 @@
     text-align: center;
     padding-bottom: 10px;
     font-size: 20px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .shop-box {
     width: 100px;
@@ -337,20 +358,22 @@
 }
 .shop-p {
     color: white;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .sec4-title {
     color: #34568B;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     text-align: center;
     position: relative;
-    font-family: "Roboto Slab", serif;
+    font-family: "Playwrite NO", cursive;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 300;
     font-style: normal;
     font-size: 30px;
 }
@@ -361,7 +384,7 @@
     height: 3px;
     position: absolute;
     left: 46%;
-    bottom: 0;
+    top: 70px;
 }
 .sec4-title2 {
     color: #34568B;
@@ -369,9 +392,9 @@
     padding-top: 15px;
     padding-bottom: 10px;
     position: relative;
-    font-family: "Roboto Slab", serif;
+    font-family: "Playwrite NO", cursive;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 300;
     font-style: normal;
     font-size: 20px;
 }
@@ -382,7 +405,7 @@
     height: 3px;
     position: absolute;
     left: 47%;
-    bottom: 0;
+    top: 50px;
 }
 .sec3{
     height: 500px;
@@ -400,9 +423,9 @@
     margin-bottom: 20px;
     text-align: center;
     border: 3px dashed #34568B;
-    font-family: "Roboto Slab", serif;
+    font-family: "Playwrite NO", cursive;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 30px;
 }
@@ -424,18 +447,22 @@
     font-size: 20px;
     padding-top: 5px;
     padding-bottom: 3px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .review-p {
     color: #34568B;
     font-size: 25px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .mastercard-box {
     width: 150px;
@@ -496,26 +523,30 @@
 .foot-h3 {
     color: white;
     font-size: 35px;
-    font-family: "Playwrite AU VIC", cursive;
+    font-family: "Playwrite AT", cursive;
     font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 200;
+    font-style: italic;
 }
 .address-p {
     color: white;
     padding-top: 10px;
     padding-bottom: 5px;
-    font-family: "Dosis", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-}
-.footer-h3 {
-    color: white;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.footer-h3 {
+    color: white;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
     font-size: 25px;
 }
 .inst {
@@ -523,10 +554,12 @@
 }
 .footer-details {
     color: white;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
     font-size: 15px;
 }
 .socmedia-box {
@@ -546,28 +579,34 @@
     padding-top: 10px;
     padding-bottom: 5px;
     font-size: 15px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .sale-p2 {
     color: white;
     font-size: 15px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .last-p {
     color: white;
     padding-top: 10px;
     padding-bottom: 15px;
     font-size: 15px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 
 /* necklace.html */ 
@@ -589,10 +628,10 @@
     margin-bottom: 20px;
     text-align: center;
     font-size: 50px;
-    font-family: "Roboto Slab", serif;
+    font-family: "Playwrite AT", cursive;
     font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 200;
+    font-style: italic;
 }
 .orderbox1 {
     column-gap: 10px;
@@ -602,28 +641,34 @@
 .necklace-name {
     color: #34568B;
     font-size: 25px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .necklace-price {
     color: #34568B;
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: 25px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .review {
     color: #34568B;
     font-size: 15px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .uth-box {
     height: 40px;
@@ -632,10 +677,12 @@
 .engraving-text {
     color: #34568B;
     font-size: 20px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .necklace-review {
     margin-top: 25px;
@@ -679,10 +726,12 @@
     background-color: black;
     color: white;
     font-size: 15px;
-    font-family: "Dosis", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .contact-leftdiv {
     width: 100%;
@@ -704,18 +753,22 @@
     color: #34568B;
     font-size: 45px;
     margin-bottom: 10px;
-    font-family: "Roboto Slab", serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .contact-p {
     color: #34568B;
     font-size: 15px;
-    font-family: "Roboto Slab", serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .underdiv {
     max-width: 1440px;
@@ -750,17 +803,21 @@
 }
 .underdiv-h4 {
     padding-bottom: 10px;
-    font-family: "Roboto Slab", serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
     font-size: 20px;
 }
 .number-p {
-    font-family: "Roboto Slab", serif;
+    font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
     font-size: 20px;
 }
 .c-footer {
@@ -841,9 +898,6 @@
     .yourbox {
         width: 20%;
     }
-    .foot-er {
-        margin-top: 350px;
-    }
     .underdiv {
         position: absolute;
         top: 220px;
@@ -903,6 +957,7 @@
     }
     .productbox {
         width: 80%;
+        height: 520px;
     }
     .divwraper3 {
         flex-wrap: wrap;
@@ -926,9 +981,6 @@
     .necklace-divwraper {
         flex-direction: column;
     }
-    .foot-er {
-        margin-top: 350px;
-    }
     .underdiv {
         position: absolute;
         top: 250px;
@@ -942,9 +994,6 @@
     }
 }
 @media (max-width: 320px) {
-    .foot-er {
-        margin-top: 350px;
-    }
     .underdiv {
         position: absolute;
         top: 180px;
@@ -979,7 +1028,7 @@
         width: 40%;
     }
     .sec2-title {
-        font-size: 35px;
+        font-size: 25px;
     }
     .productbox {
         height: 380px;
