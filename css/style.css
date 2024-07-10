@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .logo-name {
     color: white;
     font-size: 30px;
@@ -9,9 +16,15 @@
 .divwraper {
     max-width: 1440px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 0 auto ;
     padding-top: 25px; 
     position: relative;
@@ -19,9 +32,15 @@
 .burgerbar {
     width: 30px;
     height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: black;
     background-color: white;
     display: none;
@@ -33,14 +52,19 @@
     border: 1px groove;
     padding: 15px;
     background-color: #34568B;
-    box-shadow: 5px 5px 8px yellow, 10px 10px 8px yellow, 15px 15px 8px silver;
+    -webkit-box-shadow: 5px 5px 8px yellow, 10px 10px 8px yellow, 15px 15px 8px silver;
+            box-shadow: 5px 5px 8px yellow, 10px 10px 8px yellow, 15px 15px 8px silver;
     border-left: 0px;
     border-top: 0px;
     border-right: 0px;
 }
 .ul-li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 25px;
+    -webkit-column-gap: 25px;
+       -moz-column-gap: 25px;
+            column-gap: 25px;
 }
 .nav-a {
     position: relative;
@@ -61,6 +85,8 @@
     position: absolute;
     left: 0;
     bottom: 0;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
     transition: all 2s;
 }
 .nav-a:hover::after {
@@ -75,9 +101,15 @@
       "wdth" 100;
 }
 .rightdiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    column-gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
 }
 .log-box {
     color: white;
@@ -104,10 +136,19 @@
     max-width: 1440px;
     width: 90%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
 }
 .sec1 {
@@ -131,9 +172,15 @@
     background-color: black;
     width: 220px;
     height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     border-radius: 25%;
     border: 3px black groove;
     font-family: "Playwrite AU VIC", cursive;
@@ -156,8 +203,12 @@
     max-width: 1440px;
     width: 90%;
     margin: 100px auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .productbox {
     width: 400px;
@@ -218,6 +269,8 @@
     position: absolute;
     left: 0;
     bottom: 0;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
     transition: all 2s;
 }
 .img2 {
@@ -226,20 +279,32 @@
 .divwraper3 {
     max-width: 1140px;
     width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     margin: 0 auto;
     position: relative;
-    animation: monthlybox 5s;
-    animation-iteration-count: 1;
-    animation-delay: 5s;
+    -webkit-animation: monthlybox 5s;
+            animation: monthlybox 5s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+}
+@-webkit-keyframes monthlybox {
+    from {left: -100%;}
+    to {left: 0;}
 }
 @keyframes monthlybox {
     from {left: -100%;}
     to {left: 0;}
 }
 .oldprice {
-    text-decoration: line-through red;
+    -webkit-text-decoration: line-through red;
+            text-decoration: line-through red;
     font-size: 20px;
     text-align: center;
     font-family: "Inconsolata", monospace;
@@ -299,8 +364,12 @@
     width: 80%;
     margin: 70px auto 50px;
     padding-left: 14%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     position: relative;
     font-family: "Playwrite NO", cursive;
     font-optical-sizing: auto;
@@ -320,8 +389,11 @@
     max-width: 1440px;
     width: 90%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 .img4 {
     width: 100%;
@@ -345,9 +417,15 @@
     width: 100px;
     margin: 25px auto 0;
     height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     border-radius: 10%;
     background-color: black;
     border: 2px groove silver;
@@ -416,9 +494,15 @@
     width: 25%;
     height: 80px;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 150px;
     margin-bottom: 20px;
     text-align: center;
@@ -433,8 +517,12 @@
     max-width: 1440px;
     width: 90%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .box11 {
     width: 30%;
@@ -476,9 +564,15 @@
 }
 .divwraper6 {
     padding-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     max-width: 1440px;
     width: 30%;
     margin: 100px auto 0;
@@ -512,8 +606,12 @@
     background-color: #34568B;
 }
 .divwraper7 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     max-width: 1440px;
     width: 90%;
     margin: 0 auto;
@@ -563,8 +661,12 @@
     font-size: 15px;
 }
 .socmedia-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 10px;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
     font-size: 20px;
 }
 .instabox {
@@ -615,8 +717,12 @@
     max-width: 1440px;
     width: 90%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    column-gap: 80px;
+    -webkit-column-gap: 80px;
+       -moz-column-gap: 80px;
+            column-gap: 80px;
 }
 .hea-der2 {
     width: 100%;
@@ -634,9 +740,15 @@
     font-style: italic;
 }
 .orderbox1 {
-    column-gap: 10px;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .necklace-name {
     color: #34568B;
@@ -687,17 +799,29 @@
 .necklace-review {
     margin-top: 25px;
     margin-bottom: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    column-gap: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
 }
 .number1 {
     color: white;
     width: 30px;
     height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     border-radius: 50%;
     background-color: #34568B;
 }
@@ -735,9 +859,15 @@
 }
 .contact-leftdiv {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     background-color: whitesmoke;
     position: relative;
 }
@@ -774,8 +904,12 @@
     max-width: 1440px;
     width: 80%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     position: absolute;
     top: 630px;
     left: 10%;
@@ -786,9 +920,16 @@
     border-style: groove;
     width: 30%;
     height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 30px;
 }
 .support {
@@ -827,7 +968,8 @@
     width: 100%;
     height: 80px;
     background-color: #34568B;
-    box-shadow: 5px 5px 8px yellow, 10px 10px 8px yellow, 15px 15px 8px silver;
+    -webkit-box-shadow: 5px 5px 8px yellow, 10px 10px 8px yellow, 15px 15px 8px silver;
+            box-shadow: 5px 5px 8px yellow, 10px 10px 8px yellow, 15px 15px 8px silver;
 }
 
 
@@ -837,17 +979,25 @@
 @media (max-width: 1024px) {
     .divwraper2 {
         width: 90%;
-        flex-wrap: wrap;
-        justify-content: center;
-        column-gap: 20px;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-column-gap: 20px;
+           -moz-column-gap: 20px;
+                column-gap: 20px;
         row-gap: 20px;
     }
     .sec4-title2 {
         margin-bottom: 20px;
     }
     .divwraper4 {
-        flex-wrap: wrap;
-        column-gap: 20px;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-column-gap: 20px;
+           -moz-column-gap: 20px;
+                column-gap: 20px;
         row-gap: 20px;
     }
     .shop-box {
@@ -855,9 +1005,14 @@
         height: 50px;
     }
     .divwraper7 {
-        flex-wrap: wrap;
-        column-gap: 100px;
-        justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-column-gap: 100px;
+           -moz-column-gap: 100px;
+                column-gap: 100px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         row-gap: 20px;
     }
 }
@@ -866,7 +1021,9 @@
         height: 400px;
     }
     .divwraper3 {
-        column-gap: 25px;
+        -webkit-column-gap: 25px;
+           -moz-column-gap: 25px;
+                column-gap: 25px;
     }
     .necklaceimg-box {
         width: 100%;
@@ -885,8 +1042,11 @@
         display: none;
     }
     .divwraper7 {
-        column-gap: 50px;
-        flex-wrap: wrap;
+        -webkit-column-gap: 50px;
+           -moz-column-gap: 50px;
+                column-gap: 50px;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .titlebox {
         left: 5%;
@@ -914,6 +1074,9 @@
     .contact-imgbox {
         width: 40%;
     }
+    .sec2-title {
+        font-size: 40px;
+    }
     .sec1 {
         background-image: url(../images/peoplehomepage.webp);
         background-repeat: no-repeat;
@@ -931,7 +1094,10 @@
         color: black;
     }
     .ul-li {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         position: absolute;
         left: 200px;
         top: 70px;
@@ -945,9 +1111,15 @@
     }
     .burgerbar {
         display: block;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: absolute;
         top: 30px;
         left: 220px;
@@ -960,7 +1132,8 @@
         height: 520px;
     }
     .divwraper3 {
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         row-gap: 20px;
     }
     .img2 {
@@ -979,7 +1152,10 @@
         font-size: 25px;
     }
     .necklace-divwraper {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .underdiv {
         position: absolute;
@@ -1043,8 +1219,13 @@
         font-size: 20px;
     }
     .divwraper7 {
-        flex-direction: column;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .contact-h2 {
         font-size: 20px;
