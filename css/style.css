@@ -914,8 +914,16 @@
     }
 }
 @media (max-width: 320px) {
+    .foot-er {
+        margin-top: 350px;
+    }
+    .underdiv {
+        position: absolute;
+        top: 180px;
+        left: 30px;
+    }
     .contact-imgbox {
-        width: 20%;
+        display: none;
     }
     .sec1 {
         background-image: url(../images/peoplehomepage.webp);
