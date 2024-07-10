@@ -912,6 +912,20 @@
     .necklace-divwraper {
         flex-direction: column;
     }
+    .foot-er {
+        margin-top: 350px;
+    }
+    .underdiv {
+        position: absolute;
+        top: 250px;
+        left: 30px;
+    }
+    .number-p {
+        text-align: center;
+    }
+    .contact-imgbox {
+        display: none;
+    }
 }
 @media (max-width: 320px) {
     .foot-er {
