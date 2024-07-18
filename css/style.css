@@ -1015,10 +1015,14 @@
                 justify-content: center;
         row-gap: 20px;
     }
+    .sec5-title {
+        font-size: 25px;
+    }
 }
 @media (max-width: 768px) {
     .sec1 {
         height: 400px;
+        background-size: cover;
     }
     .divwraper3 {
         -webkit-column-gap: 25px;
@@ -1069,8 +1073,23 @@
     .contact-imgbox {
         display: none;
     }
+    .sec5-title {
+        font-size: 20px;
+    }
+    .leftdiv {
+        height: 170px;
+    }
+    .w3-jumbo {
+        display: none;
+    }
+    .underdiv-h4 {
+        font-size: 15px;
+    }
 }
 @media (max-width: 480px) {
+    .log-box {
+        display: none;
+    }
     .contact-imgbox {
         width: 40%;
     }
@@ -1080,7 +1099,7 @@
     .sec1 {
         background-image: url(../images/peoplehomepage.webp);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         height: 800px;
     }
     .titlebox {
@@ -1144,6 +1163,7 @@
     }
     .sec5-title {
         width: 80%;
+        
     }
     .getintouch {
         display: none;
@@ -1168,6 +1188,9 @@
     .contact-imgbox {
         display: none;
     }
+    .review-p {
+        font-size: 17px;
+    }
 }
 @media (max-width: 320px) {
     .underdiv {
@@ -1181,7 +1204,7 @@
     .sec1 {
         background-image: url(../images/peoplehomepage.webp);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         height: 500px;
     }
     .titlebox {
